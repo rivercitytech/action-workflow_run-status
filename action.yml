@@ -1,4 +1,4 @@
-name: 'rct_workflow_run status'
+name: 'rct_workflow_run_status'
 description: 'Forked from https://github.com/haya14busa/action-workflow_run-status'
 author: 'k-koehler'
 inputs:
