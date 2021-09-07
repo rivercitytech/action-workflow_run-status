@@ -1,6 +1,6 @@
-name: 'workflow_run status'
-description: 'Associate workflow_run status with the base commit of workflow_run triggered event'
-author: 'haya14busa'
+name: 'rct_workflow_run status'
+description: 'Forked from https://github.com/haya14busa/action-workflow_run-status'
+author: 'k-koehler'
 inputs:
   github_token:
     description: 'GITHUB_TOKEN'
