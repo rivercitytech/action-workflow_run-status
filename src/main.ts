@@ -81,7 +81,7 @@ async function postStatus(isCleanUp: boolean): Promise<void> {
     filter: 'latest',
     per_page: 100
   })
-  const job = jobs.data.jobs.find(j => j.name === context.job)
+  const job = jobs.data.jobs.find(j => j.id === context.github.job)
   if (!job) {
     throw new Error(`job not found: ${context.job}`)
   }
